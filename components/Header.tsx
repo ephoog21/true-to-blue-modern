@@ -25,6 +25,12 @@ const Header = () => {
     { name: "Auto Repair", href: "/trades/auto-repair" },
     { name: "Roofers", href: "/trades/roofers" },
     { name: "Painters", href: "/trades/painters" },
+    { name: "General Contractors", href: "/trades/general-contractors" },
+    { name: "Locksmiths", href: "/trades/locksmiths" },
+    { name: "Pest Control", href: "/trades/pest-control" },
+    { name: "Cleaning Services", href: "/trades/cleaning-services" },
+    { name: "Flooring", href: "/trades/flooring" },
+    { name: "Window & Door", href: "/trades/window-installers" },
   ];
 
   return (

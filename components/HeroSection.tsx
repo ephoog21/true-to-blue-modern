@@ -8,7 +8,7 @@ const HeroSection = () => {
   return (
     <section className="relative overflow-hidden">
       {/* Background gradient overlay */}
-      <div className="absolute inset-0 bg-gradient-to-br from-blue-600/20 to-purple-600/20 pointer-events-none" />
+      <div className="absolute inset-0 bg-gradient-to-br from-blue-600/20 to-slate-800/40 pointer-events-none" />
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-28">
         <div className="text-center">

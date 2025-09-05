@@ -113,7 +113,7 @@ const TestimonialsSection = () => {
               viewport={{ once: true }}
               className="text-center"
             >
-              <div className="text-3xl sm:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400 mb-2">
+              <div className="text-3xl sm:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400 mb-2">
                 {stat.value}
               </div>
               <div className="text-slate-400">{stat.label}</div>

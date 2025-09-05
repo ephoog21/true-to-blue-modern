@@ -20,11 +20,16 @@ const Footer = () => {
     { name: "Electricians", href: "/trades/electricians" },
     { name: "Landscapers", href: "/trades/landscaping" },
     { name: "Carpenters", href: "/trades/carpenters" },
-    { name: "Garage Door Specialists", href: "/trades/garage-door-repair" },
-    { name: "Auto Mechanics", href: "/trades/auto-repair" },
+    { name: "Garage Door Repair", href: "/trades/garage-door-repair" },
+    { name: "Auto Repair", href: "/trades/auto-repair" },
     { name: "Roofers", href: "/trades/roofers" },
     { name: "Painters", href: "/trades/painters" },
     { name: "General Contractors", href: "/trades/general-contractors" },
+    { name: "Locksmiths", href: "/trades/locksmiths" },
+    { name: "Pest Control", href: "/trades/pest-control" },
+    { name: "Cleaning Services", href: "/trades/cleaning-services" },
+    { name: "Flooring Contractors", href: "/trades/flooring" },
+    { name: "Window Installers", href: "/trades/window-installers" },
   ];
 
   const company = [

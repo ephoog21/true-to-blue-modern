@@ -14,6 +14,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'roofers',
     'painters',
     'general-contractors',
+    'locksmiths',
+    'pest-control',
+    'cleaning-services',
+    'flooring',
+    'window-installers',
   ];
 
   const tradePages = trades.map((trade) => ({

@@ -7,7 +7,7 @@ import { Phone, CheckCircle, ArrowRight } from "lucide-react";
 const CTASection = () => {
   return (
     <section className="py-20 relative overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 opacity-90" />
+      <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-cyan-600 opacity-90" />
       
       <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
