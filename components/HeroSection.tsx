@@ -149,7 +149,7 @@ const HeroSection = () => {
           transition={{ duration: 0.6, delay: 0.6 }}
           className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-8"
         >
-          <div className="text-center p-4 bg-slate-800/30 rounded-xl border border-blue-500/20">
+          <div className="text-center p-4 bg-slate-800/70 rounded-xl border border-blue-500/30">
             <div className="text-3xl sm:text-4xl font-bold text-blue-400 mb-2">{current.stat}</div>
             <div className="text-slate-400">{current.statLabel}</div>
           </div>

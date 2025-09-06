@@ -108,14 +108,14 @@ const TradesSection = () => {
             >
               <Link href={trade.href} className="block group">
                 <div className="relative overflow-hidden bg-slate-800/50 backdrop-blur-sm border border-slate-600 rounded-xl p-6 hover:border-blue-500/50 transition-all duration-300 h-full">
-                  <div className={`absolute top-0 right-0 w-32 h-32 bg-gradient-to-br ${trade.color} opacity-10 rounded-full -mr-16 -mt-16 group-hover:opacity-20 transition-opacity`} />
+                  <div className={`absolute top-0 right-0 w-32 h-32 bg-gradient-to-br ${trade.color} opacity-20 rounded-full -mr-16 -mt-16 group-hover:opacity-30 transition-opacity`} />
                   <div className={`bg-gradient-to-br ${trade.color} w-12 h-12 rounded-lg flex items-center justify-center mb-4`}>
                     <trade.icon className="h-6 w-6 text-white" />
                   </div>
                   <h3 className="text-lg font-semibold text-white mb-2 group-hover:text-blue-400 transition-colors">
                     {trade.name}
                   </h3>
-                  <p className="text-sm text-slate-400">
+                  <p className="text-sm text-slate-300">
                     {trade.description}
                   </p>
                   <div className="mt-4 flex items-center text-sm text-blue-400 group-hover:text-blue-300 transition-colors">

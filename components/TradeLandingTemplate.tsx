@@ -52,7 +52,7 @@ const TradeLandingTemplate = ({
     <>
       {/* Hero Section */}
       <section className="relative overflow-hidden py-20">
-        <div className={`absolute inset-0 bg-gradient-to-br ${color} opacity-10`} />
+        <div className={`absolute inset-0 bg-gradient-to-br ${color} opacity-20`} />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -167,7 +167,7 @@ const TradeLandingTemplate = ({
       </section>
 
       {/* Features Section */}
-      <section className="py-20 bg-slate-800/30">
+      <section className="py-20 bg-slate-800/70">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -210,7 +210,7 @@ const TradeLandingTemplate = ({
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
             viewport={{ once: true }}
-            className="bg-gradient-to-r from-blue-600/20 to-purple-600/20 rounded-2xl p-8 md:p-12 border border-blue-500/30"
+            className="bg-gradient-to-r from-blue-600/30 to-blue-600/30 rounded-2xl p-8 md:p-12 border border-blue-500/50"
           >
             <div className="text-center">
               <p className="text-2xl text-white mb-6 italic">&quot;{testimonial.text}&quot;</p>
@@ -230,7 +230,7 @@ const TradeLandingTemplate = ({
       </section>
 
       {/* FAQ Section */}
-      <section className="py-20 bg-slate-800/30">
+      <section className="py-20 bg-slate-800/70">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -285,7 +285,7 @@ const TradeLandingTemplate = ({
               Start Your Free 30-Day Trial
               <ArrowRight className="ml-2 h-5 w-5" />
             </Link>
-            <p className="mt-4 text-slate-400">No credit card required • Set up in 5 minutes</p>
+            <p className="mt-4 text-slate-300">No credit card required • Set up in 5 minutes</p>
           </motion.div>
         </div>
       </section>

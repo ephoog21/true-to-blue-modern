@@ -42,7 +42,7 @@ const stats = [
 
 const TestimonialsSection = () => {
   return (
-    <section className="py-20 bg-slate-800/30" id="testimonials">
+    <section className="py-20 bg-slate-800/70" id="testimonials">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -82,11 +82,11 @@ const TestimonialsSection = () => {
                   <div className="flex items-center justify-between">
                     <div>
                       <p className="font-semibold text-white">{testimonial.name}</p>
-                      <p className="text-sm text-slate-400">{testimonial.business}</p>
-                      <p className="text-xs text-slate-500">{testimonial.location}</p>
+                      <p className="text-sm text-slate-300">{testimonial.business}</p>
+                      <p className="text-xs text-slate-400">{testimonial.location}</p>
                     </div>
                     <div className="text-right">
-                      <p className="text-sm text-slate-400">Revenue increase:</p>
+                      <p className="text-sm text-slate-300">Revenue increase:</p>
                       <p className="text-lg font-bold text-green-400">{testimonial.revenue}</p>
                     </div>
                   </div>
@@ -116,7 +116,7 @@ const TestimonialsSection = () => {
               <div className="text-3xl sm:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400 mb-2">
                 {stat.value}
               </div>
-              <div className="text-slate-400">{stat.label}</div>
+              <div className="text-slate-300">{stat.label}</div>
             </motion.div>
           ))}
         </motion.div>
@@ -129,7 +129,7 @@ const TestimonialsSection = () => {
           viewport={{ once: true }}
           className="mt-12 text-center"
         >
-          <p className="text-slate-400 mb-6">Trusted by leading trade organizations</p>
+          <p className="text-slate-300 mb-6">Trusted by leading trade organizations</p>
           <div className="flex flex-wrap justify-center gap-8 items-center opacity-50">
             <div className="text-2xl font-bold text-slate-500">PHCC</div>
             <div className="text-2xl font-bold text-slate-500">NECA</div>

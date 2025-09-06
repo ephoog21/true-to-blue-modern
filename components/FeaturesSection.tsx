@@ -44,7 +44,7 @@ const features = [
 
 const FeaturesSection = () => {
   return (
-    <section className="py-20 bg-slate-800/30" id="features">
+    <section className="py-20 bg-slate-800/70" id="features">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -103,7 +103,7 @@ const FeaturesSection = () => {
               </div>
               <div className="flex-1">
                 <div className="relative">
-                  <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-500 rounded-xl blur-2xl opacity-20" />
+                  <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-blue-500 rounded-xl blur-2xl opacity-30" />
                   <div className="relative bg-slate-700/50 backdrop-blur-sm border border-slate-600 rounded-xl p-8">
                     <div className="aspect-video bg-gradient-to-br from-slate-700 to-slate-800 rounded-lg flex items-center justify-center">
                       <feature.icon className="h-20 w-20 text-slate-600" />
